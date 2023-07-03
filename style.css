@@ -1,0 +1,37 @@
+.option{
+    /* position: absolute; */
+    position: fixed;
+    margin-bottom: 30px 0;
+    top: 72px;
+    display: none;
+    transition: 0.5s;
+    height: 100vh;
+    width: 100%;
+    z-index: 100;
+    background-color: #232115;
+}
+ .option ul li{
+    margin: 10px 18px;
+    font-size: 16.5px;
+ }
+.option ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    
+}
+.option-div{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background-color: white;
+    padding-bottom: 30px;
+
+}
+.option.view{
+    display: block;
+}
+.stop{
+    position: fixed;
+}
