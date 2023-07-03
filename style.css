@@ -35,3 +35,12 @@
 .stop{
     position: fixed;
 }
+.open{
+    display: none;
+}
+.close{
+    display: none;
+}
+.close.fade{
+    display: block;
+}
